@@ -1,0 +1,34 @@
+GET http://localhost:1234/pokedex
+Content-Type: application/json
+
+###
+GET http://localhost:1234/pokedex/46
+Content-Type: application/json
+
+###
+GET http://localhost:1234/pokedex?type=FIRe
+Content-Type: application/json
+
+###
+POST http://localhost:1234/pokedex
+Content-Type: application/json
+
+{
+  "id": 85,
+  "name": "Dodrio",
+  "type": "Normal/Flying",
+  "description": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+}
+
+###
+PATCH http://localhost:1234/pokedex/1
+Content-Type: application/json
+
+{
+    "description": 465
+}
+
+###
+DELETE http://localhost:1234/pokedex/85
+Content-Type: application/json

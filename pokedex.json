@@ -1,0 +1,590 @@
+[{
+    "id": 1,
+    "name": "Bulbasaur",
+    "type": "Grass/Poison",
+    "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "type": "Grass/Poison",
+    "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "type": "Grass/Poison",
+    "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "type": "Fire",
+    "description": "The flame on its tail shows the strength of its life force. If it is weak, the flame also burns weakly.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "type": "Fire",
+    "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "type": "Fire/Flying",
+    "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "type": "Water",
+    "description": "After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "type": "Water",
+    "description": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "type": "Water",
+    "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "type": "Bug",
+    "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "type": "Bug",
+    "description": "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "type": "Bug/Flying",
+    "description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "type": "Bug/Poison",
+    "description": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "type": "Bug/Poison",
+    "description": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "type": "Bug/Poison",
+    "description": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "type": "Normal/Flying",
+    "description": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "type": "Normal/Flying",
+    "description": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "type": "Normal/Flying",
+    "description": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "type": "Normal",
+    "description": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "type": "Normal",
+    "description": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "type": "Normal/Flying",
+    "description": "Inept at flying high. However, it can fly around very fast to protect its territory.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "type": "Normal/Flying",
+    "description": "A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "type": "Poison",
+    "description": "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "type": "Poison",
+    "description": "The frightening patterns on its belly have been studied. Six variations have been confirmed.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "type": "Electric",
+    "description": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "type": "Electric",
+    "description": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "type": "Ground",
+    "description": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "type": "Ground",
+    "description": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "type": "Poison",
+    "description": "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "type": "Poison",
+    "description": "The female's horns develop slowly. Prefers physical attacks such as clawing and biting.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "type": "Poison/Ground",
+    "description": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "type": "Poison",
+    "description": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "type": "Poison",
+    "description": "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "type": "Poison/Ground",
+    "description": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "type": "Fairy",
+    "description": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "type": "Fairy",
+    "description": "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "type": "Fire",
+    "description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "type": "Fire",
+    "description": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "type": "Normal/Fairy",
+    "description": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "type": "Normal/Fairy",
+    "description": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "type": "Poison/Flying",
+    "description": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "type": "Poison/Flying",
+    "description": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "type": "Grass/Poison",
+    "description": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "type": "Grass/Poison",
+    "description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "type": "Grass/Poison",
+    "description": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "type": "Bug/Grass",
+    "description": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "type": "Bug/Grass",
+    "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "type": "Bug/Poison",
+    "description": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "type": "Bug/Poison",
+    "description": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "type": "Ground",
+    "description": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "type": "Ground",
+    "description": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "type": "Normal",
+    "description": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "type": "Normal",
+    "description": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "type": "Water",
+    "description": "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "type": "Water",
+    "description": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "type": "Fighting",
+    "description": "Extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "type": "Fighting",
+    "description": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "type": "Fire",
+    "description": "Very protective of its territory. It will bark and bite to repel intruders from its space.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "type": "Fire",
+    "description": "A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "type": "Water",
+    "description": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "type": "Water",
+    "description": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "type": "Water/Fighting",
+    "description": "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "type": "Psychic",
+    "description": "Using its ability to read minds, it will identify impending danger and teleport to safety.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "type": "Psychic",
+    "description": "It emits special alpha waves from its body that induce headaches just by being close by.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "type": "Psychic",
+    "description": "Its brain can outperform a supercomputer. Its IQ (intelligence quotient) is said to be around 5,000.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "type": "Fighting",
+    "description": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "type": "Fighting",
+    "description": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "type": "Fighting",
+    "description": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "type": "Grass/Poison",
+    "description": "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "type": "Grass/Poison",
+    "description": "It spits out PoisonPowder to immobilize the enemy and then finishes it with a spray of Acid.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "type": "Grass/Poison",
+    "description": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "type": "Water/Poison",
+    "description": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "type": "Water/Poison",
+    "description": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "type": "Rock/Ground",
+    "description": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "type": "Rock/Ground",
+    "description": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "type": "Rock/Ground",
+    "description": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "type": "Fire",
+    "description": "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "type": "Fire",
+    "description": "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "type": "Water/Psychic",
+    "description": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "type": "Water/Psychic",
+    "description": "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "type": "Electric/Steel",
+    "description": "Uses anti-gravity to stay suspended. Appears without warning and uses Thunder Wave and similar moves.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "type": "Electric/Steel",
+    "description": "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "type": "Normal/Flying",
+    "description": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "type": "Normal/Flying",
+    "description": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+  }
+
+]

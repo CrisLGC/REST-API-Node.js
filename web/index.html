@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #db003e;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ef5350;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header input {
+      margin-top: 1rem;
+      padding: 0.5rem;
+      width: 80%;
+      max-width: 400px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    article {
+      border: 2px solid #fc2c2c;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem;
+      background-color: #ef5350;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    img {
+      height: auto;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    button {
+      background-color: #db003e;
+      color: rgb(255, 149, 149);
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d32f2f;
+    }
+
+    .no-results {
+      text-align: center;
+      color: #666;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+  </style>
+  <script type="module">
+    fetch('http://localhost:1234/pokedex')
+      .then(res => res.json())
+      .then(pokemon => {
+        const renderPokemon = (filteredPokemon) => {
+          const main = document.querySelector('main');
+          if (filteredPokemon.length === 0) {
+            main.innerHTML = '<p class="no-results">No se encontró ningún Pokémon.</p>';
+          } else {
+            const html = filteredPokemon.map(poke => {
+              return `
+                <article data-id="${poke.id}">
+                  <h2>${poke.name}</h2>
+                  <img src="${poke.image}" alt="${poke.name}">
+                  <p>${poke.description}</p>
+
+                  <button>Eliminar</button>
+                </article>
+              `;
+            }).join('');
+
+            main.innerHTML = html;
+          }
+        };
+
+        renderPokemon(pokemon);
+
+        document.querySelector('#search').addEventListener('input', e => {
+          const query = e.target.value.toLowerCase();
+          const filteredPokemon = pokemon.filter(poke => poke.name.toLowerCase().includes(query));
+          renderPokemon(filteredPokemon);
+        });
+
+        document.addEventListener('click', e => {
+          if (e.target.matches('button')) {
+            const article = e.target.closest('article');
+            const id = article.dataset.id;
+
+            fetch(`http://localhost:1234/pokedex/${id}`, {
+              method: 'DELETE'
+            })
+              .then(res => {
+                if (res.ok) {
+                  article.remove();
+                }
+              });
+          }
+        });
+      });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Pokédex</h1>
+    <input type="text" id="search" placeholder="Buscar Pokémon...">
+  </header>
+  <main></main>
+</body>
+</html>
